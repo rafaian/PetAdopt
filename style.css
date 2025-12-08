@@ -24,7 +24,6 @@ header .btnAdote {
 }
 
 .banner {
-  background-color: pink;
   height: 80vh;
   padding: 1rem;
 }
@@ -57,6 +56,10 @@ article {
   align-items: center;
   text-align: center;
 }
+.pet .descricao, .pet .nome {
+  display: none;
+}
+
 .imgPet {
   width: 50%;
   height: 20vh;
